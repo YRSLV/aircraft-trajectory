@@ -1,0 +1,30 @@
+/* Custom Stylesheet */
+.icon-block {
+  padding: 0 10px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.sidenav {
+  width: 200px;
+}
+header, main, footer {
+  padding-left: 100px;
+}
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    padding-left: 0px;
+  }
+}
+.chartWithMarkerOverlay {
+  position: relative;
+}
+.overlay-marker {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+#chart_div_mp1 {
+  top: 0px;
+  left: 0px;
+}
