@@ -380,8 +380,8 @@ ini_set('error_reporting', E_ALL);
           <div id = \"chart_div_fc" . $flight_case . "\" style = \"width: 1000px; height: 500px; margin-left: -100px;\">
           </div>
           <div id = \"chart_div_mp" . $flight_case . "\" class = \"overlay-marker\">
-            <img src = \"img/baseline_airplanemode_active_black_48_fliped.png\" class = \"gwd-img-15oh gwd-gen-12njgwdanimation\"
-            data-gwd-motion-path-key = \"gwd-motion-path-b5zl\" data-gwd-has-tangent-following = \"\">
+            <img src = \"img/baseline_airplanemode_active_black_48_fliped.png\" class = \"gwd-img-" . $flight_case . $flight_case . $flight_case . $flight_case . " gwd-gen-" . $flight_case . $flight_case . $flight_case . $flight_case . "gwdanimation\"
+            data-gwd-motion-path-key = \"gwd-motion-path-" . $flight_case . $flight_case . $flight_case . $flight_case . "\" data-gwd-has-tangent-following = \"\">
           </div>
         </div>
       </div>
@@ -456,7 +456,6 @@ ini_set('error_reporting', E_ALL);
         curveType: 'function',
         colors: ['blue', 'red', 'yellow', 'purple', 'green']
       };
-
       var chart = new google.visualization.LineChart(document.getElementById('chart_div_fc1'));
       function placeMarker(dataTable) {
         var chart_li = this.getChartLayoutInterface();
@@ -498,8 +497,8 @@ ini_set('error_reporting', E_ALL);
       function placeMarker(dataTable) {
         var chart_li = this.getChartLayoutInterface();
         var chart_area = chart_li.getChartAreaBoundingBox();
-        document.querySelector('#chart_div_mp2').style.top = Math.floor(chart_li.getYLocation(dataTable.getValue(0, 0))) - 58 + "px";
-        document.querySelector('#chart_div_mp2').style.left = Math.floor(chart_li.getXLocation(dataTable.getValue(0, 0))) - 180 + "px";
+        document.querySelector('#chart_div_mp2').style.top = Math.floor(chart_li.getYLocation(dataTable.getValue(0, 0))) - 50 + "px";
+        document.querySelector('#chart_div_mp2').style.left = Math.floor(chart_li.getXLocation(dataTable.getValue(0, 0))) - 170 + "px";
       };
       google.visualization.events.addListener(chart, 'ready', placeMarker.bind(chart, chart_data));
       chart.draw(chart_data, chart_options);
@@ -535,8 +534,8 @@ ini_set('error_reporting', E_ALL);
       function placeMarker(dataTable) {
         var chart_li = this.getChartLayoutInterface();
         var chart_area = chart_li.getChartAreaBoundingBox();
-        document.querySelector('#chart_div_mp3').style.top = Math.floor(chart_li.getYLocation(dataTable.getValue(0, 0))) - 58 + "px";
-        document.querySelector('#chart_div_mp3').style.left = Math.floor(chart_li.getXLocation(dataTable.getValue(0, 0))) - 180 + "px";
+        document.querySelector('#chart_div_mp3').style.top = Math.floor(chart_li.getYLocation(dataTable.getValue(0, 0))) - 50 + "px";
+        document.querySelector('#chart_div_mp3').style.left = Math.floor(chart_li.getXLocation(dataTable.getValue(0, 0))) - 170 + "px";
       };
       google.visualization.events.addListener(chart, 'ready', placeMarker.bind(chart, chart_data));
       chart.draw(chart_data, chart_options);

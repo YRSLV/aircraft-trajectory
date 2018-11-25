@@ -1,15 +1,15 @@
-.overlay-marker .gwd-motion-path-b5zl-anim-x {
+#chart_div_mp1 .gwd-motion-path-1111-anim-x {
   --gwd-motion-path: {
     "tangentFollowing": true, "sections": [ {
-      "controlPoints": ["1px", "-59px", "1px", "-127px", "19.31px", "-128.2px", "65px", "-153px", "65px", "-153px", "323px", "-293px", "380px", "-319px", "463px", "-317px", "463px", "-317px", "497.57px", "-316.17px", "525.7px", "-306.15px", "553px", "-307px", "553px", "-307px", "617px", "-309px", "601px", "-313px", "693px", "-313px"], "startTimeMs": 0, "endTimeMs": 10000, "easing": "linear"
+      "controlPoints": ["1px", "-59px", "1px", "-127px", "19.31px", "-128.2px", "65px", "-153px", "65px", "-153px", "323px", "-293px", "380px", "-319px", "463px", "-317px", "463px", "-317px", "497.57px", "-316.17px", "525.7px", "-306.15px", "553px", "-307px", "553px", "-307px", "617px", "-309px", "601px", "-313px", "693px", "-313px"], "startTimeMs": 0, "endTimeMs": 20000, "easing": "linear"
     }
     ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
   }
   ;
-  animation:gwd-motion-path-b5zl-keys-x 10s linear 0s 1 normal forwards;
+  animation:gwd-motion-path-1111-keys-x 20s linear 0s 1 normal forwards;
   transform:translate3d(1px, 0px, 0px);
 }
-@keyframes gwd-motion-path-b5zl-keys-x {
+@keyframes gwd-motion-path-1111-keys-x {
   0% {
     transform: translate3d(1px, 0px, 0px);
     animation-timing-function: cubic-bezier(0.5862, -0.0556, 0.7562, 0.6049);
@@ -31,11 +31,11 @@
     transform: translate3d(693px, 0px, 0px);
   }
 }
-.overlay-marker .gwd-motion-path-b5zl-anim-y {
-  animation: gwd-motion-path-b5zl-keys-y 10s linear 0s 1 normal forwards;
+#chart_div_mp1 .gwd-motion-path-1111-anim-y {
+  animation: gwd-motion-path-1111-keys-y 20s linear 0s 1 normal forwards;
   transform: translate3d(0px, -59px, 0px);
 }
-@keyframes gwd-motion-path-b5zl-keys-y {
+@keyframes gwd-motion-path-1111-keys-y {
   0% {
     transform: translate3d(0px, -59px, 0px);
     animation-timing-function: cubic-bezier(0.3097, 0.3767, 0.5444, 0.7791);
@@ -63,11 +63,11 @@
     transform: translate3d(0px, -313px, 0px);
   }
 }
-.overlay-marker .gwd-motion-path-b5zl-anim-theta {
-  animation: gwd-motion-path-b5zl-keys-theta 10s linear 0s 1 normal forwards;
+#chart_div_mp1 .gwd-motion-path-1111-anim-theta {
+  animation: gwd-motion-path-1111-keys-theta 20s linear 0s 1 normal forwards;
   transform: rotateZ(-90deg);
 }
-@keyframes gwd-motion-path-b5zl-keys-theta {
+@keyframes gwd-motion-path-1111-keys-theta {
   0% {
     transform: rotateZ(-90deg);
     animation-timing-function: cubic-bezier(0.5956, 0.1102, 0.4135, 1.1592);
@@ -97,7 +97,7 @@
   transform-style: preserve-3d;
   pointer-events: none;
 }
-[data-gwd-motion-path-node].gwd-motion-path-b5zl-anim-x {
+[data-gwd-motion-path-node].gwd-motion-path-1111-anim-x {
   left: 7px;
   top: 344px;
   width: 56px;
