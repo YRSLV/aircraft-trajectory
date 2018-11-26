@@ -1,30 +1,30 @@
 #chart_div_mp2 .gwd-motion-path-2222-anim-x {
   --gwd-motion-path: {
     "tangentFollowing": true, "sections": [ {
-      "controlPoints": ["0px", "0px", "-2.24px", "-94.99px", "10.33px", "-134.33px", "29.67px", "-186.33px", "29.67px", "-186.33px", "41.77px", "-218.86px", "125px", "-297.67px", "135px", "-301.67px", "135px", "-301.67px", "167.49px", "-314.68px", "233.67px", "-300.11px", "260.33px", "-301px", "260.33px", "-301px", "300.33px", "-302.33px", "608.98px", "-299.34px", "646px", "-301px"], "startTimeMs": 0, "endTimeMs": 20000, "easing": "linear"
+      "controlPoints": ["1px", "26px", "7px", "-68px", "15.66px", "-127px", "35px", "-179px", "35px", "-179px", "47.1px", "-211.53px", "129px", "-297px", "139px", "-301px", "139px", "-301px", "171.49px", "-314.01px", "233.67px", "-300.11px", "260.33px", "-301px", "260.33px", "-301px", "300.33px", "-302.33px", "608.98px", "-299.34px", "646px", "-301px"], "startTimeMs": 0, "endTimeMs": 20000, "easing": "linear"
     }
     ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
   }
   ;
   animation:gwd-motion-path-2222-keys-x 20s linear 0s 1 normal forwards;
-  transform:translate3d(0px, 0px, 0px);
+  transform:translate3d(1px, 0px, 0px);
 }
 @keyframes gwd-motion-path-2222-keys-x {
   0% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: cubic-bezier(0.5781, -0.1021, 0.7996, 0.5895);
+    transform: translate3d(1px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.49, 0.1776, 0.7901, 0.5326);
   }
-  22.13% {
-    transform: translate3d(29.67px, 0px, 0px);
+  23.76% {
+    transform: translate3d(35px, 0px, 0px);
   }
-  22.59% {
-    transform: translate3d(31.21px, 0px, 0px);
-    animation-timing-function: cubic-bezier(0.3659, 0.2813, 0.6941, 0.6519);
+  24.22% {
+    transform: translate3d(36.57px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3641, 0.2851, 0.696, 0.6485);
   }
-  40.44% {
-    transform: translate3d(135px, 0px, 0px);
+  42.14% {
+    transform: translate3d(139px, 0px, 0px);
   }
-  55.12% {
+  56.06% {
     transform: translate3d(260.33px, 0px, 0px);
   }
   100% {
@@ -33,29 +33,29 @@
 }
 #chart_div_mp2 .gwd-motion-path-2222-anim-y {
   animation: gwd-motion-path-2222-keys-y 20s linear 0s 1 normal forwards;
-  transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 26px, 0px);
 }
 @keyframes gwd-motion-path-2222-keys-y {
   0% {
-    transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: cubic-bezier(0.3302, 0.3365, 0.6576, 0.6755);
+    transform: translate3d(0px, 26px, 0px);
+    animation-timing-function: cubic-bezier(0.3315, 0.335, 0.6599, 0.6738);
   }
-  22.13% {
-    transform: translate3d(0px, -186.33px, 0px);
-    animation-timing-function: cubic-bezier(0.2997, 0.3573, 0.6447, 0.7023);
+  23.76% {
+    transform: translate3d(0px, -179px, 0px);
+    animation-timing-function: cubic-bezier(0.3053, 0.3534, 0.6463, 0.6996);
   }
-  40.44% {
-    transform: translate3d(0px, -301.67px, 0px);
+  42.14% {
+    transform: translate3d(0px, -301px, 0px);
+    animation-timing-function: cubic-bezier(0.2073, -185.746, 0.3106, -163.093);
   }
-  40.8% {
-    transform: translate3d(0px, -302.75px, 0px);
-    animation-timing-function: cubic-bezier(0.1858, -4.9658, 0.6181, -0.5093);
+  55.71% {
+    transform: translate3d(0px, -300.96px, 0px);
   }
-  55.12% {
+  56.06% {
     transform: translate3d(0px, -301px, 0px);
     animation-timing-function: cubic-bezier(0.0947, -1.9049, 0.6947, 1);
   }
-  93.36% {
+  93.5% {
     transform: translate3d(0px, -300.5px, 0px);
     animation-timing-function: cubic-bezier(0.529, 0, 0.9042, 0.2632);
   }
@@ -65,31 +65,34 @@
 }
 #chart_div_mp2 .gwd-motion-path-2222-anim-theta {
   animation: gwd-motion-path-2222-keys-theta 20s linear 0s 1 normal forwards;
-  transform: rotateZ(-91.35deg);
+  transform: rotateZ(-86.35deg);
 }
 @keyframes gwd-motion-path-2222-keys-theta {
   0% {
-    transform: rotateZ(-91.35deg);
-    animation-timing-function: cubic-bezier(0.4931, 0.1953, 0.5938, 0.8063);
+    transform: rotateZ(-86.35deg);
+    animation-timing-function: cubic-bezier(0.5259, 0.1228, 0.7715, 0.5507);
   }
-  22.13% {
+  23.76% {
     transform: rotateZ(-69.6deg);
-    animation-timing-function: cubic-bezier(0.0704, 0.7051, 0.4488, 0.8081);
+    animation-timing-function: cubic-bezier(0.0677, 0.697, 0.4486, 0.8151);
   }
-  35.86% {
-    transform: rotateZ(-43.48deg);
-    animation-timing-function: cubic-bezier(0.3343, 0.1227, 1, -0.1275);
+  36.62% {
+    transform: rotateZ(-46.52deg);
+    animation-timing-function: cubic-bezier(0.5096, 0.1843, 0.9297, 0.3914);
   }
-  40.44% {
+  41.68% {
+    transform: rotateZ(-37.68deg);
+  }
+  42.14% {
     transform: rotateZ(-21.82deg);
-    animation-timing-function: cubic-bezier(0.0377, 0.4324, 0.4505, 1.3204);
+    animation-timing-function: cubic-bezier(0.0335, 0.4154, 0.4813, 1.4389);
   }
-  53.65% {
-    transform: rotateZ(3.93deg);
+  55.01% {
+    transform: rotateZ(2.91deg);
   }
-  55.12% {
+  56.06% {
     transform: rotateZ(-1.91deg);
-    animation-timing-function: cubic-bezier(0, -4.5909, 1, -5.9678);
+    animation-timing-function: cubic-bezier(0, -4.5909, 1, -5.9677);
   }
   100% {
     transform: rotateZ(-2.57deg);
