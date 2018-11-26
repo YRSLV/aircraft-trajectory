@@ -645,8 +645,8 @@ ini_set('error_reporting', E_ALL);
       function placeMarker(dataTable) {
         var chart_li = this.getChartLayoutInterface();
         var chart_area = chart_li.getChartAreaBoundingBox();
-        document.querySelector('#chart_div_mp6').style.top = Math.floor(chart_li.getYLocation(dataTable.getValue(0, 0))) - 58 + "px";
-        document.querySelector('#chart_div_mp6').style.left = Math.floor(chart_li.getXLocation(dataTable.getValue(0, 0))) - 180 + "px";
+        document.querySelector('#chart_div_mp6').style.top = Math.floor(chart_li.getYLocation(dataTable.getValue(0, 0))) - 48 + "px";
+        document.querySelector('#chart_div_mp6').style.left = Math.floor(chart_li.getXLocation(dataTable.getValue(0, 0))) - 165 + "px";
       };
       google.visualization.events.addListener(chart, 'ready', placeMarker.bind(chart, chart_data));
       chart.draw(chart_data, chart_options);
