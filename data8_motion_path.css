@@ -1,7 +1,7 @@
 #chart_div_mp8 .gwd-motion-path-8888-anim-x {
   --gwd-motion-path: {
     "tangentFollowing": true, "sections": [ {
-      "controlPoints": ["0px", "0px", "-0.56px", "84.52px", "17.08px", "237.08px", "88.87px", "234.02px", "88.87px", "234.02px", "134.42px", "230.06px", "119.06px", "204.97px", "188px", "203px", "188px", "203px", "239.9px", "204.97px", "540.03px", "204.98px", "651px", "207px"], "startTimeMs": 0, "endTimeMs": 20000, "easing": "linear"
+      "controlPoints": ["0px", "0px", "-0.56px", "84.52px", "17.64px", "241.77px", "89.43px", "238.71px", "89.43px", "238.71px", "134.98px", "234.75px", "119.06px", "204.97px", "188px", "203px", "188px", "203px", "289.32px", "206.9px", "537.37px", "205.6px", "651.66px", "205.6px"], "startTimeMs": 0, "endTimeMs": 20000, "easing": "linear"
     }
     ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
   }
@@ -12,23 +12,23 @@
 @keyframes gwd-motion-path-8888-keys-x {
   0% {
     transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: cubic-bezier(0.5695, 0.0055, 0.8681, 0.5092);
+    animation-timing-function: cubic-bezier(0.5644, 0.0077, 0.8702, 0.5123);
   }
-  29.81% {
-    transform: translate3d(69.05px, 0px, 0px);
+  30.06% {
+    transform: translate3d(69.34px, 0px, 0px);
   }
-  32.23% {
-    transform: translate3d(88.87px, 0px, 0px);
-    animation-timing-function: cubic-bezier(0.3185, 0.3519, 0.6897, 0.6373);
+  32.5% {
+    transform: translate3d(89.43px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3078, 0.3661, 0.6947, 0.6299);
   }
-  43.57% {
-    transform: translate3d(177.44px, 0px, 0px);
+  42.96% {
+    transform: translate3d(169.29px, 0px, 0px);
   }
-  44.83% {
+  45.18% {
     transform: translate3d(188px, 0px, 0px);
   }
   100% {
-    transform: translate3d(651px, 0px, 0px);
+    transform: translate3d(651.66px, 0px, 0px);
   }
 }
 #chart_div_mp8 .gwd-motion-path-8888-anim-y {
@@ -38,21 +38,22 @@
 @keyframes gwd-motion-path-8888-keys-y {
   0% {
     transform: translate3d(0px, 0px, 0px);
-    animation-timing-function: cubic-bezier(0.33, 0.3351, 0.6487, 0.6888);
+    animation-timing-function: cubic-bezier(0.3301, 0.3352, 0.6495, 0.6877);
   }
-  25.78% {
-    transform: translate3d(0px, 209.09px, 0px);
-    animation-timing-function: cubic-bezier(0.2072, 0.3206, 0.5396, 1.0299);
+  26% {
+    transform: translate3d(0px, 212.72px, 0px);
+    animation-timing-function: cubic-bezier(0.2091, 0.3177, 0.5436, 1.0272);
   }
-  32.23% {
-    transform: translate3d(0px, 234.02px, 0px);
-    animation-timing-function: cubic-bezier(0.455, 0.1837, 0.3883, 0.9566);
+  32.5% {
+    transform: translate3d(0px, 238.71px, 0px);
+    animation-timing-function: cubic-bezier(0.4499, 0.1708, 0.4008, 0.9633);
   }
-  44.83% {
+  45.18% {
     transform: translate3d(0px, 203px, 0px);
+    animation-timing-function: cubic-bezier(0.1296, 0.7267, 0.2437, 1.2884);
   }
   100% {
-    transform: translate3d(0px, 207px, 0px);
+    transform: translate3d(0px, 205.6px, 0px);
   }
 }
 #chart_div_mp8 .gwd-motion-path-8888-anim-theta {
@@ -62,28 +63,28 @@
 @keyframes gwd-motion-path-8888-keys-theta {
   0% {
     transform: rotateZ(90.38deg);
-    animation-timing-function: cubic-bezier(0.6162, 0.1841, 0.8704, 0.2938);
+    animation-timing-function: cubic-bezier(0.613, 0.1909, 0.8744, 0.2875);
   }
-  29.81% {
-    transform: rotateZ(22.67deg);
+  30.06% {
+    transform: rotateZ(23.65deg);
   }
-  31.42% {
-    transform: rotateZ(5.61deg);
+  31.68% {
+    transform: rotateZ(5.98deg);
   }
-  32.23% {
+  32.5% {
     transform: rotateZ(-4.97deg);
-    animation-timing-function: cubic-bezier(0.5751, 2.2967, 0.3162, 5.4915);
+    animation-timing-function: cubic-bezier(0.5354, 1.9557, 0.337, 4.9467);
   }
-  40.73% {
-    transform: rotateZ(-13.96deg);
-    animation-timing-function: cubic-bezier(0.2216, 0.4478, 0.9805, 0.5269);
+  41.06% {
+    transform: rotateZ(-16.5deg);
+    animation-timing-function: cubic-bezier(0.2214, 0.451, 0.9299, 0.5425);
   }
-  44.83% {
-    transform: rotateZ(2.17deg);
-    animation-timing-function: cubic-bezier(0, 2.9149, 1, 1.494);
+  45.18% {
+    transform: rotateZ(2.2deg);
+    animation-timing-function: cubic-bezier(0, 0.5292, 0.4481, 1.1993);
   }
   100% {
-    transform: rotateZ(1.04deg);
+    transform: rotateZ(0deg);
   }
 }
 [data-gwd-motion-path-node] {
