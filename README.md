@@ -1,6 +1,8 @@
 # Aircraft trajectory 
 
-Aircraft flight trajectory simulation
+![Aircraft trajectory](https://github.com/YRSLV/aircraft-trajectory/blob/master/img/Dell_Laptop_mockup.png)
+
+This project is a simulator of the aircraft flight trajectory. [Tupolev TU-154](https://en.wikipedia.org/wiki/Tupolev_Tu-154) functional capabilities were used as the test data set for trajectory re-creation.
 
 ## Built With
 
